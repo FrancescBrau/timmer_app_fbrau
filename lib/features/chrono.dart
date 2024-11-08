@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class StopwatchChrono extends StatefulWidget {
-  const StopwatchChrono({super.key});
+class Chrono extends StatefulWidget {
+  const Chrono({super.key});
 
   @override
-  StopwatchState createState() => StopwatchState();
+  ChronoState createState() => ChronoState();
 }
 
-class StopwatchState extends State<StopwatchChrono> {
+class ChronoState extends State<Chrono> {
   final Stopwatch _stopwatch = Stopwatch();
   bool _isRunning = false;
   String _displayTime = "00:00.00";
