@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:timmer_app/config/themes.dart';
-import 'package:timmer_app/features/stop_watch_screen.dart';
+import 'package:timmer_app/features/stopwatch/stop_watch_screen.dart';
 
 void main() {
   runApp(const TimmerApp());

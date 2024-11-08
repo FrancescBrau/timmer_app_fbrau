@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:timmer_app/features/chrono.dart';
-import 'package:timmer_app/features/timer_screen.dart';
+import 'package:timmer_app/features/models/chrono.dart';
+import 'package:timmer_app/features/timer/timer_screen.dart';
 
 class MainScreen extends StatefulWidget {
   final VoidCallback _toggleTheme;
